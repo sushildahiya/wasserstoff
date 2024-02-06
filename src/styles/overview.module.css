@@ -374,11 +374,14 @@
 .salesFigure {
     color: #383874;
     display: flex;
- align-items: center;
+     align-items: center;
     background-color: #FFF;
     height:86px;
     gap:2px;
-    border-radius: 10px;}
+    border-radius: 10px;
+    padding-left:.5em;
+
+}
 
 /* Styles for sales figure paragraph */
 .salesFigure > div p {
