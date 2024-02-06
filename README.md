@@ -4,11 +4,11 @@
 
 ## Technical Stack/Libraries Used:
 
-  1. React JS
+  1. React JS - Javascript based frontend library, specially used for creating SPA's.
 
-  2. Chart.JS
+  2. Chart.JS  -   Javascript based library which is used to display data in different forms charts.
 
-  3. React Loader Spinner
+  3. React Loader Spinner - Javascript library which has wide variety of pre-built loader animation.
 
   4. React router dom
 
