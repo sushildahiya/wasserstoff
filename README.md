@@ -47,3 +47,43 @@
 ## Vercel Hosted Link: [https://wasserstoff-git-main-sushils-projects-5ce2d618.vercel.app/]
 
 ## Approach I tried and went while developing the project:
+
+## Screenshots: (Note: Screenshots are taken at 90% zoom level)
+### Screenshot 1
+
+![Screenshot (46)](https://github.com/sushildahiya/wasserstoff/assets/97718833/d9f394f7-881d-49c6-8b5e-ab4b527b5970)
+
+### Screenshot 2
+
+![Screenshot (47)](https://github.com/sushildahiya/wasserstoff/assets/97718833/97a56648-d2be-472a-ac19-fd2b7eb43171)
+
+
+### Screenshot 3
+
+![Screenshot (48)](https://github.com/sushildahiya/wasserstoff/assets/97718833/42bacdeb-499b-4c14-b232-4ed78d367ea3)
+
+### Screenshot 4
+
+![Screenshot (49)](https://github.com/sushildahiya/wasserstoff/assets/97718833/85439e06-db35-4981-8297-b531fea92170)
+
+### Screenshot 5
+
+![Screenshot (50)](https://github.com/sushildahiya/wasserstoff/assets/97718833/bef1e740-1ebd-4d9f-a622-2c85b34981a2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
