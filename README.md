@@ -10,11 +10,11 @@
 
   3. React Loader Spinner - Javascript library which has wide variety of pre-built loader animation.
 
-  4. React router dom
+  4. React router dom - Router library which is used to navigation routes in our react acpp.
 
-  5. Styled Components
+  5. Styled Components 
 
-  6. Html, Css
+  6. HTML, CSS
 
 
 ## Steps to run the project:
