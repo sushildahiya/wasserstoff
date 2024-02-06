@@ -244,7 +244,7 @@ function Overview() {
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <rect width="1105" height="6" rx="3" fill="#8676FF" />
+            <rect width="1098" height="6" rx="3" fill="#8676FF" />
             <rect width="580" height="6" rx="3" fill="#FF708B" />
             <rect width="200" height="6" rx="3" fill="#FFA63F" />
           </svg>
