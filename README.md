@@ -1,6 +1,9 @@
 # WSTF-FRONT-END-HAKATHON
 
 
+### Problem Statement: [https://www.figma.com/file/ppNMpYAmwAxgSTvbr1wLmC/Wasseerstoff-Front-end-Developer-Task?type=design&mode=design]
+
+
 
 ## Technical Stack/Libraries Used:
 
@@ -47,6 +50,12 @@
 ## Vercel Hosted Link: [https://wasserstoff-git-main-sushils-projects-5ce2d618.vercel.app/]
 
 ## Approach I tried and went while developing the project:
+
+As soon as I got the mail regarding the hackathon, I went through it. A requirement doc was attached to as which is the important tool for thinking and developing requirement. I went through it and understood it. And  I found that I have to develop the frontend to the requirement using react and using whichever library we want, but the craziest thing is that requirement was to develop a frontend although we can't use images in whole app. 
+
+  As I went through the figma of the requirement, at starting only I got the challenge to implement hexa world map which I have never done before, it was new for me as it was clearly mentioned that we have to implement everything using code. Initially I thought to use svg code to directly use it, but I wanted to know how we can actually implement it. I googled alot and found some map libraries. I started going through the libraris. I learned how maps are rendered in map (# either using geopoints or x y coordinates #). I found that even the library [ internally was using svg ]. So, I found that first step is to get # geoJson # of the world. The library had good support for simple map, but it didn't done any good for hexabin map as there was an example for hexabin map of US but there all the x and y coordinates where mentioned not the geoJson. I tried to find x and y cordinates for hexabin of whole again which was failure as only hexabin x and y coordinates are only available for US region. Now, I tried to generate my own hexabin by breaking the world map into small hexabins which was again failure. So I decided to once try to fetch path from svg and use it in d3js library again failure. Finally I decided to make other views and touch hexabin at last. 
+  There was some communication gap looking at the requirement as there were 3 screens to be developed, but for all the screens the nav route was pointed to only overview. I decided to assign one screen to different route as analystics. 
+  New challege was implement bar chart I started using d3js library for it. I was successful in implementing it but unfortunatley some times I was getting an error which looked up on internet but didn't found much support. So I decided it to create bar chart manually and finished overview page without hexabin map. And then moved to the second page where I have to develop bubble chart. Which contains bubbles of different sizes, color and shadows. I tried to create a single component for both texted bubbles and non texted bubbles using # styled component # prop based styling but I found some issue with # box-shadowing # color shades were not matching with the requirement. I switched to some other approach to create texted bubbles manually and non texted bubbles using react component for reusability. I completed the 2nd page of analytics where I followed data driven approach to get different details for different time intervals. Now I had completed my 2nd page of bubble chart.
 
 ## Screenshots: (Note: Screenshots are taken at 90% zoom level)
 ### Screenshot 1
