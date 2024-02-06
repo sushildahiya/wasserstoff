@@ -1,0 +1,51 @@
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 3%;
+    left:40%;
+    width: 30%;
+    z-index: 5;
+}
+.timeline > p {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 16px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #3D3D60;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.timeline > div {
+    display: flex;
+    background: #FFFFFF;
+    border-radius: 100px;
+    height: 36px;
+    width:351px;
+    padding: 0 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.timeline > div p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.44px;
+    cursor: pointer;
+}
+
+.currentTimeInterval {
+    background-color: #3247E6;
+    border-radius: 16px;
+    padding: 7px 0;
+    width: 53px;
+    color: #fff;
+    text-align: center;   
+}

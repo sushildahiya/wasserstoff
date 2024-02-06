@@ -1,0 +1,91 @@
+/* Styles for the navigation bar container */
+.navBarContainer {
+    background-color: #FFF;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1em;
+}
+
+/* Styles for the logo container */
+.logoContainer {
+    display: flex;
+    align-items: center;
+    padding-left: 1.3em;
+}
+
+/* Styles for the logo container heading */
+.logoContainer h2 {
+    font-family: 'Archivo';
+    font-weight: 400;
+    font-size: 21px;
+    padding: 10px;
+    margin: 0px;
+}
+
+/* Styles for the search content container */
+.searchContent {
+    position: relative;
+    padding: 0 10px;
+    width: 30%;
+}
+
+/* Styles for the search input */
+.searchContent input {
+    height: 32px;
+    width: 100%;
+    background-color: #EEF0FA;
+    border: none;
+    border-radius: 8px;
+}
+
+/* Styles for the search icon */
+.searchContent svg {
+    position: absolute;
+    top: 8px;
+    right: 20px;
+}
+
+/* Styles for the navigation links */
+.navLinks {
+    padding: 0.6em;
+    text-decoration: none;
+    color: #8484A0;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.44px;
+}
+
+/* Styles for the user section container */
+.userSection {
+    display: flex;
+    gap: 1em;
+}
+
+/* Styles for the navigation body */
+.navBody {
+    background-color: #EEF0FA;
+    margin: 0;
+    padding: 0;
+    min-height: 77vh;
+}
+
+/* Styles for the footer container */
+.footer {
+    height: 38px;
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 67px;
+}
+
+/* Styles for the footer heading */
+.footer h1 {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 16px;
+    letter-spacing: 1.5px;
+}

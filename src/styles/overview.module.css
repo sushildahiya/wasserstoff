@@ -1,0 +1,449 @@
+/* Styles for the outer container */
+.outerContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 23px 44px;
+    gap: 17px;
+}
+
+/* Styles for the overview container */
+.overviewContainer > div {
+    display: flex;
+}
+
+/* Styles for the overview map */
+.overview_map {
+    padding-top: 1.5em;
+    position: relative;
+}
+
+/* Styles for the overview map elements */
+.overview_map > div {
+    position: absolute;
+}
+
+/* Styles for the overview map details */
+.overview_map > div > div {
+    position: relative;
+    display: flex;
+    width: 173px;
+    height: 60px;
+    background-color: #FFF; 
+    align-items: center;
+    padding: 6px 10px;
+    gap: 12px;
+    border-radius: 16px;
+    filter: drop-shadow(0px 140.831px 112.665px rgba(41, 52, 149, 0.21)) drop-shadow(0px 58.8358px 47.0686px rgba(41, 52, 149, 0.150959)) drop-shadow(0px 31.4564px 25.1651px rgba(41, 52, 149, 0.125183)) drop-shadow(0px 17.6342px 14.1074px rgba(41, 52, 149, 0.105)) drop-shadow(0px 9.3654px 7.49232px rgba(41, 52, 149, 0.0848175)) drop-shadow(0px 3.89715px 3.11772px rgba(41, 52, 149, 0.0590406));
+}
+
+/* Styles for the overview map icon */
+.overview_map > div > div > div > span {
+    height: 40px;
+    width: 40px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styles for the overview map text */
+.overview_map > div > div > div > p {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0.4399999976158142px;
+    text-align: left;
+}
+
+/* Styles for the overview map heading */
+.overview_map > div > div > div > h6 {
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: left;
+}
+
+/* Styles for the specific regions in the overview map */
+.chiagoContainer > div > div > span {
+    background-color: #66C8FF;
+}
+
+.manausContainer > div > div > span {
+    background-color: rgb(248 162 67);
+}
+
+.berlinContainer > div > div > span {
+    background-color: rgb(123 221 162);
+}
+
+.gizaContainer > div > div > span {
+    background-color: rgb(255 126 126);
+}
+
+.queenslandContainer > div > div > span {
+    background-color: rgb(102 154 255);
+}
+
+.shangaiContainer > div > div > span {
+    background-color: rgb(232 165 255);
+}
+
+/* Styles for the down arrow in the overview map */
+.downArrow {
+    position: absolute;
+    bottom: -10px;
+    left: 45%;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 13px solid #FFF;
+}
+
+/* Styles for specific regions in the overview map */
+.chiagoContainer {
+    top: 20%;
+    left: 11%;
+}
+
+.manausContainer {
+    top: 48%;
+    left: 20%;
+}
+
+.gizaContainer {
+    top: 35%;
+    left: 48%;
+}
+
+.queenslandContainer {
+    top: 60%;
+    left: 76%;
+}
+
+.shangaiContainer {
+    top: 28%;
+    left: 74%;
+}
+
+.berlinContainer {
+    top: 12%;
+    left: 43%;
+}
+
+/* Styles for sales overview heading */
+.salesOverview h2 {
+    font-family: 'Archivo';
+    font-size: 20.51px;
+    font-weight: 400;
+    line-height: 22.31px;
+}
+
+/* Styles for user count container */
+.userCount > div {
+    display: flex;
+    align-items: last baseline;
+    gap: 20px;
+}
+
+/* Styles for user count inner containers */
+.userCount > div > div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Styles for user count heading */
+.userCount > div h5 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.15px;
+    color: #383874;
+    margin: 3em 0 0 0;
+    padding: 0;
+}
+
+/* Styles for details container paragraph */
+.detailContainter p {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 16px;
+    letter-spacing: 1.5px;
+    color: #383874;
+}
+
+/* Styles for user count heading */
+.userCount h1 {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 118px;
+    letter-spacing: -1.75px;
+    color: #383874;
+    margin: -15px 0 0 0;
+    padding: 0;
+}
+
+/* Styles for sales details container */
+.salesDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 80px 0 100px 0;
+}
+
+/* Styles for sales details inner containers */
+.salesDetails > div {
+    display: flex;
+    gap: 26px;
+}
+
+/* Styles for sales details div */
+.salesDetails > div > div {
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styles for sales details span */
+.salesDetails span {
+    color: #FFF;
+    font-size: 32px;
+}
+
+/* Styles for total earning container */
+.totalEarning {
+    background-color: #8676FF;
+}
+
+/* Styles for sales container */
+.sales {
+    background-color: #66C8FF;
+}
+
+/* Styles for purchase container */
+.purchase {
+    background-color: #FF9066;
+}
+
+/* Styles for sales details paragraph */
+.salesDetails p {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.44px;
+    color: #383874;
+}
+
+/* Styles for sales details heading */
+.salesDetails h6 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.15px;
+    color: #383874;
+}
+
+/* Styles for specific child in sales details */
+.salesDetails > div :nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+/* Styles for specific paragraph in sales details */
+.salesDetails > div :nth-child(2) p {
+    white-space: nowrap;
+}
+
+/* Styles for users data container */
+.usersData {
+    display: flex;
+    gap: 18px;
+}
+
+/* Styles for users data inner containers */
+.usersData > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Styles for active users and new users */
+.activeUsers > div:first-child,
+.newUsers > div:first-child {
+    position: relative;
+}
+
+/* Styles for new users container */
+.newUsers {
+    padding-left: 1.5em;
+}
+
+/* Styles for users data svg */
+.usersData svg {
+    width: 80px;
+    height: 80px;
+    transform: rotate(270deg);
+}
+
+/* Styles for active bar */
+.activeBar {
+    stroke: #DBDFF1;
+    fill: none;
+    stroke-width: 4px;
+}
+
+/* Styles for active progress */
+.activeProgress {
+    stroke: #023AFF;
+    fill: none;
+    stroke-width: 4px;
+    stroke-dasharray: 58 300;
+    stroke-linecap: round;
+}
+
+/* Styles for new users bar */
+.newUsersBar {
+    stroke: #DBDFF1;
+    fill: none;
+    stroke-width: 4px;
+}
+
+/* Styles for new users progress */
+.newUsersProgress {
+    stroke: #00B929;
+    fill: none;
+    stroke-width: 4px;
+    stroke-dasharray: 135 100;
+    stroke-linecap: round;
+}
+
+/* Styles for users data heading */
+.usersData h6 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.44px;
+    color: #383874;
+    text-align: center;
+}
+
+/* Styles for users data paragraph */
+.usersData p {
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.44px;
+    color: #383874;
+    text-align: center;
+}
+
+/* Styles for percentage */
+.percent {
+    position: absolute;
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 20px;
+    top: 20px;
+    left: 23px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.112222px;
+    color: #171725;
+}
+
+/* Styles for sales figure container */
+.salesFigure div {
+    padding: 0px 0.3em 0px 0.3em;
+}
+
+/* Styles for sales figure container */
+.salesFigure {
+    color: #383874;
+    display: flex;
+    align-items: center;
+}
+
+/* Styles for sales figure paragraph */
+.salesFigure > div p {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.44px;
+}
+
+/* Styles for sales figure container */
+.salesFigure > div h5 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 36px;
+}
+
+/* Styles for sales figure container */
+.salesFigure > div:nth-child(2) {
+    width: 90%;
+}
+
+/* Styles for chart div container */
+.chartDiv {
+    padding: 0;
+}
+
+/* Styles for chart container svg */
+.chartContainer svg {
+    margin: 0;
+    padding-left: 15px;
+}
+
+/* Styles for modal overlay */
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styles for modal content */
+.modalContent {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+    width: 90%;
+    height: 90%;
+}
+
+/* Styles for close button in modal */
+.closeButton {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+/* Styles for bubble chart */
+.bubbleChart {
+    height: 100%;
+    width: 100%;
+}

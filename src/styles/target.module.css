@@ -1,0 +1,141 @@
+/* Styles for the outer progress container */
+.outerProgress {
+    width: 120px;
+    height: 120px;
+    display: grid;
+    place-content: center;
+    position: relative;
+}
+
+/* Styles for the inner progress container */
+.innerProgress {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #F4F6FF;
+    display: grid;
+    place-content: center;
+}
+
+/* Styles for the inner circle container */
+.innerCircle {
+    border: 2px solid #8676FF;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: relative;
+    display: grid;
+    place-content: center;
+}
+
+/* Styles for the diamond shape in the outer container */
+.diamondOutter {
+    position: absolute;
+    top: 8px;
+    left: 5px;
+}
+
+/* Styles for the diamond shape in the inner container */
+.diamondInner {
+    position: absolute;
+    top: 11px;
+    left: 9.5px;
+}
+
+/* Styles for the inner progress bar */
+.barProgressInner {
+    position: absolute;
+    top: 6px;
+    right: 5.5px;
+}
+
+/* Styles for the outer progress bar */
+.barProgressOuter {
+    position: absolute;
+}
+
+/* Styles for the circle shape */
+.circle {
+    width: 90px;
+    height: 90px;
+    stroke: #DBDFF1;
+    stroke-width: 5px;
+    fill: none;
+}
+
+/* Styles for the inner progress circle */
+.innerProgressCircle {
+    stroke-width: 7px;
+    stroke: #FFBA69;
+    fill: none;
+    stroke-linecap: round;
+    stroke-dasharray: 220;
+}
+
+/* Styles for the outer circle shape */
+.circleOuter {
+    width: 120px;
+    height: 120px;
+    stroke: #DBDFF1;
+    stroke-width: 5px;
+    fill: none;
+}
+
+/* Styles for the outer progress circle with different dash arrays */
+.outerProgressCircle1 {
+    stroke-width: 7px;
+    stroke: #8676FF;
+    fill: none;
+    stroke-linecap: round;
+    stroke-dasharray: 25 320;
+}
+
+.outerProgressCircle2 {
+    stroke-width: 7px;
+    stroke: #FF708B;
+    fill: none;
+    stroke-linecap: round;
+    stroke-dasharray: 225 500;
+}
+
+/* Styles for the diamond shape in the outer container - before and after pseudo-elements */
+.diamondOutter:before, .diamondOutter:after {
+    content: "";
+    display: block;
+    height: 0px;
+}
+
+.diamondOutter:before {
+    width: 10px;
+    border-left: 5.3px solid transparent;
+    border-right: 5.3px solid transparent;
+    border-bottom: 5.3px solid #8676FF;
+}
+
+.diamondOutter:after {
+    width: 0px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #8676FF;
+}
+
+/* Styles for the diamond shape in the inner container - before and after pseudo-elements */
+.diamondInner:before, .diamondInner:after {
+    content: "";
+    display: block;
+    height: 0px;
+}
+
+.diamondInner:before {
+    width: 5px;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-bottom: 3px solid #fff;
+}
+
+.diamondInner:after {
+    width: 0px;
+    border-left: 5.7px solid transparent;
+    border-right: 5.7px solid transparent;
+    border-top: 5.7px solid #fff;
+}

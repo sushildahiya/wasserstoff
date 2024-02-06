@@ -1,0 +1,8 @@
+.largeBubbleContainer{
+    height: 45px;
+    width: 45px;
+    position: absolute;
+    border-radius: 50%;
+    background: radial-gradient(96% 96% at 70.4% 31.2%, #6AE4FF 0%, rgba(74, 147, 255, 0) 100%), #0811E2;
+    box-shadow: inset 0px 2px 10px rgba(255, 255, 255, 0.58), inset 0px -6px 10px rgba(63, 209, 255, 0.67), inset 10px 16px 20px rgba(0, 133, 255, 0.95);
+}

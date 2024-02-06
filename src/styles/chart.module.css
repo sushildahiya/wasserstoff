@@ -1,0 +1,9 @@
+.chartContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+align-items: flex-end;
+}
+.chartContainer div{
+    margin:.1em;
+}
