@@ -14,6 +14,12 @@ function BubbleChartModal() {
     // Chart options for the Bubble Chart
     const chartOptions = {
       maintainAspectRatio: false, // Set to false to control height and width manually
+      layout: {
+        padding: {
+          top: 20, // Adjust top padding to make space for labels
+          bottom: 20, // Adjust bottom padding as needed
+        },
+      },
       scales: {
         x: {
           type: 'category',
@@ -32,6 +38,11 @@ function BubbleChartModal() {
           grid: {
             display: false,
           },
+        },
+      },
+      plugins: {
+        legend: {
+          position: 'right', // Adjust legend position if needed
         },
       },
     };
