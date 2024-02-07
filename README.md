@@ -69,15 +69,16 @@ As soon as I got the mail regarding the hackathon, I went through it. A requirem
 
 ### Screenshot 3
 
-![Screenshot (48)](https://github.com/sushildahiya/wasserstoff/assets/97718833/42bacdeb-499b-4c14-b232-4ed78d367ea3)
+![Screenshot (51)](https://github.com/sushildahiya/wasserstoff/assets/97718833/b4fa6f74-5905-425c-9f82-3d69e2223cce)
+
 
 ### Screenshot 4
 
-![Screenshot (49)](https://github.com/sushildahiya/wasserstoff/assets/97718833/85439e06-db35-4981-8297-b531fea92170)
+![Screenshot (52)](https://github.com/sushildahiya/wasserstoff/assets/97718833/5d406596-5a32-4e3c-b529-0ba48037b422)
 
 ### Screenshot 5
 
-![Screenshot (50)](https://github.com/sushildahiya/wasserstoff/assets/97718833/bef1e740-1ebd-4d9f-a622-2c85b34981a2)
+![Screenshot (53)](https://github.com/sushildahiya/wasserstoff/assets/97718833/ee5ad52c-3991-4ccc-a1ff-ec0fe1d731e7)
 
 
 
